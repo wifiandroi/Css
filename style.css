@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*https://guias.servicios.gob.pe/creacion-servicios-digitales/estilos/colores*/
+/*https://fonts.google.com/icons*/
+/*https://fonts.google.com/icons*/
+/*https://guias.servicios.gob.pe/creacion-servicios-digitales/estilos/iconos*/
+
+@import url('nav.css');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --main-color: #ffffff;
+  --main-padding: 1em;
+  --main-padding-double: 1rem;
+
+  --main-bg-headboard-primary: rgb(225,37,27); /*#E1251B*/
+  --main-bg-two-primary: rgb(233,73,41); /* #E94949*/ 
+  --main-bg-three-primary: rgb(241,136,37); /*#F18825*/ 
+  --main-bg-four-primary: rgb(247,169,65); /*#F7A941*/ 
+  --main-bg-five-primary: rgb(227,227,227); /*#E3E3E3*/  
+  --main-color-primary: brown;
+
+  --main-footer-primary: rgb(87,87,86); /*#575756*/
+
+
+  --main-bg-headboard-secondary: #BF0909;
+  --main-bg-secondary: #EDF0F4;
+  --main-bg-two-secondary: #EDF0F4;
+  --main-bg-three-secondary:  #f2f5f8;
+  --main-color-title-secondary: #26292E;
+  --main-color-two-title-secondary: #26292E;
+  --main-btn-link-secondary: #0056AC;
+  --main-btn-link-two-secondary: #e6f2f8;
+  --main-btn-hover-secondary: #184397;
+  --main-btn-disabled-secondary: #184397;
+  --main-btn-more-secondary: #253c63;
+  --main-btn-border-secondary:#0056ac;
+  --main-border-secondary: #DEE3EA;
+  --main-border-focus-secondary: #FFD147;
+  --main-border-two-secondary:  #1b9d6b;
+
+  --main-footer-secondary: #26292E;
+  --main-footer-two-secondary:#464c57;
+}
+
+
+
+.h11{
+  background-color: var(--main-color-title-secondary);
+  color: var(--main-color);
+  padding: var(--main-padding-double);
+}
+.mas{
+  background-color:var(--main-bg-headboard-secondary) ;
+  color: var(--main-color);
+  padding: var(--main-padding);
+}
+
+.h22{
+ background-color: var(--main-bg-headboard-secondary);
+  color: var(--main-color);
+  padding: var(--main-padding-double);
+}
+.menos{
+ background-color: var(--main-bg-two-primary);
+  padding: var(--main-padding);
+  color: var(--main-color);
+}
+
+.dc{
+   background-color: var(--main-bg-three-primary);
+    color: var(--main-color);
+  padding: var(--main-padding-double);
+}
